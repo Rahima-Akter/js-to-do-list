@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>JS To-Do-List</title>
+</head>
+
+<body>
+    <main class="container mx-auto">
+        <div class="w-[40%] mx-auto mt-12">
+            <input id="input-box" type="text" placeholder="Type here"
+                class="input input-bordered input-success w-full max-w-xs" />
+            <button class="btn btn-success ml-2 text-white" id="create-btn">Create</button>
+            <button class="btn btn-success ml-2 text-white" id="clear-all-btn">Clear All</button>
+
+        </div>
+        <div id="list-container" class="flex flex-col gap-6 font-bold text-lg py-2 mt-10 w-[40%] mx-auto">
+            
+        </div>
+    </main>
+    <script src="js/to-do.js"></script>
+</body>
+</html>
