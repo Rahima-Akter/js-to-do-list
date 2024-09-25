@@ -11,17 +11,22 @@
 
 <body>
     <main class="container mx-auto">
-        <div class="w-[40%] mx-auto mt-12">
-            <input id="input-box" type="text" placeholder="Type here"
-                class="input input-bordered input-success w-full max-w-xs" />
-            <button class="btn btn-success ml-2 text-white" id="create-btn">Create</button>
-            <button class="btn btn-success ml-2 text-white" id="clear-all-btn">Clear All</button>
+        <div class="lg:w-[40%] md:w-[60%] w-[90%] mx-auto mt-12">
+            <h1 class="md:text-3xl text-2xl font-bold text-red-600 mb-4 flex"><img class="md:-mt-1 md:w-[8%] w-[10%]"
+                    src="notebook.gif" alt="animated icons created by Freepik-Flaticon">To-Do-List.......</h1>
+            <div class="flex justify-center">
+                <input id="input-box" type="text" placeholder="Type your task here"
+                    class="input input-bordered input-success md:h-12 h-8 w-[60%]" />
+                <button class="btn md:btn-md btn-sm btn-success ml-2 text-white" id="create-btn">Create</button>
+                <button class="btn md:btn-md btn-sm btn-success ml-2 text-white" id="clear-all-btn">Clear All</button>
+            </div>
 
         </div>
-        <div id="list-container" class="flex flex-col gap-6 font-bold text-lg py-2 mt-10 w-[40%] mx-auto">
-            
+        <div id="list-container" class="flex flex-col gap-6 font-bold text-lg py-2 mt-10 lg:w-[35%] md:w-[55%] w-[85%] mx-auto">
+
         </div>
     </main>
     <script src="js/to-do.js"></script>
 </body>
+
 </html>
